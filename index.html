@@ -1,0 +1,99 @@
+
+
+
+<!-- Calculadora IMC-by: davidoberst -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <title>Calcular IMC</title>
+</head>
+
+
+<body>
+
+
+    <h2 class="header">Calculadora IMC</h2>
+    
+
+
+    <p class="descripcion">
+
+
+        Calculadora de IMC, una herramienta rápida y fácil de usar para determinar tu estado nutricional según tu peso y
+        altura. El Índice de Masa Corporal (IMC) es un indicador utilizado para evaluar si una persona tiene un peso
+        saludable en relación con su altura. Con solo ingresar tu peso en kilogramos y tu altura en metros, podrás
+        conocer tu IMC y obtener una clasificación sobre si estás en un rango bajo, normal, sobrepeso u obesidad.
+
+
+
+    </p>
+
+    <br>
+
+    <div class="text-section">
+       
+
+
+
+        <div class="parrafoo">
+            <p class="title1">¿Por qué calcular tu IMC?</p>
+            <p class="1">   El IMC es un parámetro ampliamente<br>
+                utilizado en medicina para identificar<br>
+                posibles riesgos para la salud<br>
+                relacionados con el peso. Aunque no mide<br>
+                la grasa corporal de forma exacta, es un<br>
+                buen punto de partida para evaluar si es<br>
+                necesario hacer cambios en tu estilo de vida,<br>
+                alimentación o actividad física.</p>
+            
+        </div>
+
+
+
+
+
+
+        <div class="container">
+
+
+        
+
+            <label for="estatura" class="label_estatura"> Estatura (Metros):</label>
+            <br>
+            <br>
+            <input type="number" id="estatura" placeholder= " Ejemplo: 1.75 " class="estatura">
+
+            <br>
+            <br>
+
+            <label for="peso" class="label_peso"> Peso (Kilogramos):</label>
+            <br>
+            <br>
+            <input type="number" id="peso" placeholder=" Ejemplo: 68 " class="peso">
+            <br>
+            <br>
+            <br>
+            <input type="button" value="Calcular IMC" onclick="calcular()" id="calcular">
+        </div>    
+    </div>
+  
+        <center>
+            <p id="resultado"></p>
+            <p id="diagnostico"></p>
+            
+        </center>
+  
+
+
+
+</body>
+
+</html>
